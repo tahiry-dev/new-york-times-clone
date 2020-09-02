@@ -1,0 +1,134 @@
+/* ---CSS RESET--- */
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:nyt-franklin, helvetica, arial,sans-serif;
+}
+
+/* --- common styles--- */
+.heading-logo{
+    font-family: 'Ma Shan Zheng', cursive;
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+p{
+    color:#333;
+    font-size:1.125rem;
+    line-height:1.5625rem;
+}
+
+.written-article{
+    width:600px;
+}
+
+/* --- images & Video Dimensions ---- */
+
+
+.main-feature-image{
+    width: 70%;
+}
+
+.section-feature-video,
+.section-feature-image
+{
+    width:600px;
+    height:319px;
+}
+
+/* --- footer---- */
+
+.footer-categories{
+    padding:25px;
+}
+
+
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.home-link{
+    font-size:12px;
+    text-decoration:none;
+}
+
+
+.categorie-boxes{
+    display:grid;
+    grid-template-columns: repeat(6,auto);
+}
+.categorie-boxes h4{
+    margin-bottom: 20px;
+}
+
+
+.categorie-boxes li{
+    list-style-type: none;
+}
+
+
+.categorie-boxes a{
+    text-decoration:none;
+    color:black;
+    line-height: 1.8em;
+    font-size:13px;
+}
+
+.categorie-boxes a:hover{
+    text-decoration:underline;
+}
+
+.category-box6{
+    border-left:1px solid #ebebeb;
+    padding-left: 20px;
+    position: relative;
+}
+
+.category-box6 b{
+    position: absolute;
+    left: 40px;
+}
+
+.new-york-time-logo{
+    width: 20px;
+}
+
+
+.subscribe-ruler{
+    margin:10px 0 10px 0;
+}
+
+
+.footer-ruler{
+    width: 97%;
+    margin: 0 auto;
+    margin-top:30px;
+    color:#ebebeb;
+}
+
+.footer-menu{
+    text-align: center;
+    font-size:12px;
+    padding:20px;
+}
+.footer-menu a{
+    margin-right:10px;
+    text-decoration:none;
+    color:#666;
+}
+
+.footer-menu a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+

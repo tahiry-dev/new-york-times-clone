@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="https://www.nytimes.com/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/99bfec9549.js" crossorigin="anonymous"></script>
     <title>Space Ripples Reveal Big Bang’s Smoking Gun - The New York Times</title>
 </head>
@@ -20,7 +21,7 @@
                     <a href="#">SPACE & COSMOS</a>
                 </div>
                 <div class="primary-nav-center">
-                    <a href="#">The New York Times</a>
+                    <a class="heading-logo" href="#">The New York Times</a>
                 </div>
                 <div class="primary-nav-right">
                     <button class="subscribe">SUBSCRIBE NOW</button>
@@ -49,7 +50,7 @@
         <article>
             <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
             <figure>
-                <img src="images/cosmos.jpg" alt="article-feature-image">
+                <img class="main-feature-image" src="images/cosmos.jpg" alt="article-feature-image">
                 <figcaption>
                     Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains
                     how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion
@@ -224,7 +225,8 @@
                             last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a
                                 href="#">knocked on his door with a bottle of Champagne</a> to tell him the news.</p>
                         <figure>
-                            <iframe src="https://www.youtube.com/embed/ZlfIVEy_YOA" allowfullscreen></iframe>
+                            <iframe class="section-feature-video" src="https://www.youtube.com/embed/ZlfIVEy_YOA"
+                                allowfullscreen></iframe>
                             <figcaption>
                                 Stanford Professor Andrei Linde celebrates physics breakthrough <cite>Video by
                                     StanfordUniversity</cite>
@@ -269,7 +271,7 @@
                             said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever
                             since,” he said.</p>
                         <figure>
-                            <img src="images/telescope.jpg" alt="image of telescope">
+                            <img class="section-feature-image" src="images/telescope.jpg" alt="image of telescope">
                             <figcaption>
                                 The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity
                                 patterns — the signature of a universe being wrenched violently apart at its
@@ -472,11 +474,10 @@
 
         </div>
         <div class="footer-categories">
-            <header>
-                <a href="#">The New York Times</a>
-                <a href="#">Go to Home Page >></a>
-            </header>
-
+            <div class="category-header">
+                <a class="heading-logo" href="#">The New York Times</a>
+                <a class="home-link" href="#">Go to Home Page >></a>
+            </div>
             <div class="categorie-boxes">
                 <div class="category-box1">
                     <h4>NEWS</h4>
@@ -564,14 +565,15 @@
                 <div class="category-box6">
                     <h4>SUBSCRIBE</h4>
                     <ul>
-                        <li><a href="#"><i class="fas fa-truck-loading"></i> <b>Home Delivery</b></a></li>
-                        <li><a href="#"><img src="images/Times.ico"
-                                    alt="New york times logo"><b>DigitalSubscriptions</b></a></li>
-                        <li><a href="#"><i class="fas fa-dice-four"></i><b>Games</b></a></li>
-                        <li><a href="#"><i class="fas fa-utensils"></i><b>Cooking</b></a></li>
+                        <li><i class="fas fa-truck-loading"></i><a href="#"><b>Home Delivery</b></a></li>
+                        <li><img class="new-york-time-logo" src="images/Times.ico" alt="New york times logo"><a
+                                href="#"><b>DigitalSubscriptions</b></a></li>
+                        <li><i class="fas fa-dice-four"></i><a href="#"><b>Games</b></a></li>
+                        <li><i class="fas fa-utensils"></i><a href="#"><b>Cooking</b></a></li>
                         <li><a href="#">Email Newsletters</a></li>
                         <li><a href="#">Corporate Subscriptions</a></li>
                         <li><a href="#">Education rate</a></li>
+                        <hr class="subscribe-ruler">
                         <li><a href="#">Mobile Applications</a></li>
                         <li><a href="#">Replica Edition</a></li>
                         <li><a href="#">Español</a></li>
@@ -581,7 +583,7 @@
             </div>
 
         </div>
-        <hr>
+        <hr class="footer-ruler">
         <div class="footer-menu">
             <a href="#">&copy;2020 The New York Times Company</a>
             <a href="#">NYTCo</a>
