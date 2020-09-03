@@ -40,7 +40,29 @@ p{
     height:319px;
 }
 
+.footer-astronomy-boxes img,
+.footer-editor-boxes img
+{
+    width: 100%;
+}
+
+
 /* --- footer---- */
+
+.footer-feature{
+    display: grid;
+    grid-template-columns: 60% 5% 35%;
+}
+
+.footer-astronomy-boxes,
+.footer-editor-boxes
+
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+
 
 .footer-categories{
     padding:25px;
