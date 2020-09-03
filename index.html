@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <script src="https://use.fontawesome.com/50deaa9e2e.js"></script>
+    <script src="https://kit.fontawesome.com/99bfec9549.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://www.nytimes.com/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
     <title>Space Ripples Reveal Big Bang’s Smoking Gun - The New York Times</title>
@@ -14,19 +14,17 @@
 <body>
     <header>
         <nav>
-            <div class="primary-nav">
-                <div class="primary-nav-left">
-                    <button><i class="fas fa-bars"></i></button>
-                    <button><i class="fas fa-search"></i></button>
-                    <a href="#">SPACE & COSMOS</a>
-                </div>
-                <div class="primary-nav-center">
-                    <a class="heading-logo" href="#">The New York Times</a>
-                </div>
-                <div class="primary-nav-right">
-                    <button class="subscribe">SUBSCRIBE NOW</button>
-                    <button class="login">LOGIN</button>
-                </div>
+            <div class="nav-left">
+                <button><i class="fas fa-bars"></i></button>
+                <button><i class="fas fa-search"></i></button>
+                <a href="#">SPACE & COSMOS</a>
+            </div>
+            <div class="nav-center">
+                <a class="heading-logo" href="#">The New York Times</a>
+            </div>
+            <div class="nav-right">
+                <button class="subscribe">SUBSCRIBE NOW</button>
+                <button class="login">LOGIN</button>
             </div>
         </nav>
     </header>
@@ -341,8 +339,10 @@
         </article>
     </main>
     <footer>
-        <hr>
-        <h3><a href="#">More in Space and Astronomy</a></h3>
+        <div class="boxes-header">
+            <a class="boxes-header-link" href="#">More in Space and Astronomy</a>
+            <p class="boxes-aside-title">Most Popular</p>
+        </div>
         <div class="footer-feature">
             <div class="footer-feature-left">
                 <div class="footer-astronomy-boxes">
@@ -411,7 +411,7 @@
                     </div>
                 </div>
                 <hr>
-                <h3><a href="#">More in Space and Astronomy</a></h3>
+                <h3><a class="boxes-separator" href="#">Editors'Picks</a></h3>
                 <div class="footer-editor-boxes">
                     <div class="editor-box-1">
                         <figure>
@@ -447,8 +447,6 @@
             </div>
             <div class="footer-feature-right">
                 <div class="footer-aside">
-                    <hr>
-                    <h3>Most Popular</h3>
                     <p><a href="#">How the Fatal Shooting at a Portland Protest Unfolded</a></p>
                     <p><a href="#">3 Highly Portable Picnic Options That Aren’t Sandwiches</a></p>
                     <p><a href="#">Trump Says Some Really Strange Things. Republicans Say No Comment, Again.</a></p>

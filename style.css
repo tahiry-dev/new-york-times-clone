@@ -1,7 +1,6 @@
 /* ---CSS RESET--- */
-*,
-*::before,
-*::after{
+*
+{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -44,14 +43,39 @@ p{
 .footer-editor-boxes img
 {
     width: 100%;
+    height: 150px;
 }
 
 
 /* --- footer---- */
 
+.boxes-header{
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+.boxes-aside-title{
+    color: #333;
+    font-weight: bold;
+}
+
+.boxes-header-link{
+    text-decoration:none;
+    color:#333;
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+.boxes-header-link:hover{
+    text-decoration:underline;
+}
+
 .footer-feature{
     display: grid;
-    grid-template-columns: 60% 5% 35%;
+    grid-template-columns: 70% 3% 25%;
+    padding: 20px;
 }
 
 .footer-astronomy-boxes,
@@ -60,6 +84,19 @@ p{
 {
     display: grid;
     grid-template-columns: repeat(3,auto);
+    grid-gap:25px;
+}
+
+.footer-astronomy-boxes{
+    margin-bottom:30px;
+}
+
+
+.boxes-separator{
+    text-decoration:none;
+    color:#333;
+    display: block;
+    margin: 20px 0;
 }
 
 
