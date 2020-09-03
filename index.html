@@ -15,16 +15,16 @@
     <header>
         <nav>
             <div class="nav-left">
-                <button><i class="fas fa-bars"></i></button>
-                <button><i class="fas fa-search"></i></button>
-                <a href="#">SPACE & COSMOS</a>
+                <button class="icon-button"><i class="fas fa-bars"></i></button>
+                <button class="icon-button"><i class="fas fa-search"></i></button>
+                <a class="icon-button link-button" href="#"><b>SPACE & COSMOS</b></a>
             </div>
             <div class="nav-center">
                 <a class="heading-logo" href="#">The New York Times</a>
             </div>
             <div class="nav-right">
                 <button class="subscribe">SUBSCRIBE NOW</button>
-                <button class="login">LOGIN</button>
+                <button class="header-login">LOGIN</button>
             </div>
         </nav>
     </header>
@@ -90,10 +90,13 @@
                     trillionth of a trillionth of a second old. They are the long-sought smoking-gun evidence of
                     inflation, proof, Dr. Kovac and his colleagues say, that Dr. Guth was correct.
                 </p>
+                <div class="border-separator"></div>
                 <div class="article-separator">
                     <h4>Unlock more free articles.</h4>
-                    <a href="#">Create an account or log in</a>
+                    <a class="login" href="#">Create an account or log in</a>
                 </div>
+                <div class="border-separator"></div>
+
                 <p>
                     Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth,
                     wondered whether it could ever be proved.
@@ -240,7 +243,7 @@
                         <figure>
                             <iframe class="section-feature-video" src="https://www.youtube.com/embed/ZlfIVEy_YOA"
                                 allowfullscreen></iframe>
-                            <figcaption>
+                            <figcaption class="feature-caption">
                                 Stanford Professor Andrei Linde celebrates physics breakthrough <cite>Video by
                                     StanfordUniversity</cite>
                             </figcaption>
@@ -285,7 +288,7 @@
                             since,” he said.</p>
                         <figure>
                             <img class="section-feature-image" src="images/telescope.jpg" alt="image of telescope">
-                            <figcaption>
+                            <figcaption class="feature-caption">
                                 The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity
                                 patterns — the signature of a universe being wrenched violently apart at its
                                 birth.<cite>Steffen Richter/Associated Press</cite>
@@ -351,25 +354,35 @@
                             “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who
                             was not part of the team, “you wind up at inflation.”
                         </p>
+                        <div class="section-credit">
+                            <p>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the
+                                New
+                                York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a
+                                    class="credit-link" href="#">Order Reprints</a>
+                                | <a class="credit-link" href="#">Today’s Paper</a> | <a class="credit-link" href="
+                                    #">Subscribe</a></p>
+                        </div>
+                        <div class="section-comments">
+                            <button class="comment-button">READ 615 COMMENTS</button>
+                            <div>
+                                <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                                <a href="#"><i class="fas fa-envelope-square fa-lg"></i></a>
+                                <a href="#"><i class="fas fa-share fa-lg"></i></a>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="section-credit">
-                        <p>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New
-                            York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a
-                                href="#">Order Reprints</a>
-                            | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a></p>
-                    </div>
-                    <div class="section-comments">
-                        <button class="comment-button">READ 615 COMMENTS</button>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fas fa-envelope-square"></i></a>
-                        <a href="#"><i class="fas fa-share"></i></a>
-                    </div>
+
                 </div>
             </section>
         </article>
     </main>
     <footer>
+        <div class="ruler">
+            <hr class="left-boxes-ruler">
+            <hr class="right-boxes-ruler">
+        </div>
         <div class="boxes-header">
             <a class="boxes-header-link" href="#">More in Space and Astronomy</a>
             <p class="boxes-aside-title">Most Popular</p>
@@ -381,9 +394,10 @@
                         <figure>
                             <img src="images/star.jpg" alt="star image">
                             <figcaption>
-                                <span>European Southern Observatory</span>
-                                <p><a href="#">This star look like it would explode. Maybe it Just Sneezed</a></p>
-                                <span>Aug. 14</span>
+                                <span class="image-description">European Southern Observatory</span>
+                                <p><a class="article-link" href="#">This star look like it would explode. Maybe it Just
+                                        Sneezed</a></p>
+                                <span class="release-date">Aug. 14</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -391,9 +405,10 @@
                         <figure>
                             <img src="images/amazon-satellite.jpg" alt="amazon-satellite image">
                             <figcaption>
-                                <span>Peter Komka/MTI, via Associated Press</span>
-                                <p><a href="#">Amazon satellites Add to Astronomers' Worries about the night Sky</a></p>
-                                <span>Aug. 10</span>
+                                <span class="image-description">Peter Komka/MTI, via Associated Press</span>
+                                <p><a class="article-link" href="#">Amazon satellites Add to Astronomers' Worries about
+                                        the night Sky</a></p>
+                                <span class="release-date">Aug. 10</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -401,11 +416,13 @@
                         <figure>
                             <img src="images/space-x.jpg" alt="space-x image">
                             <figcaption>
-                                <span>Bill Ingalls/NASA, via Agence France-Presse — Getty Images</span>
-                                <p><a href="#">‘Thanks for Flying SpaceX’: NASA Astronauts Safely Splash Down After
+                                <span class="image-description">Bill Ingalls/NASA, via Agence France-Presse — Getty
+                                    Images</span>
+                                <p><a class="article-link" href="#">‘Thanks for Flying SpaceX’: NASA Astronauts Safely
+                                        Splash Down After
                                         Journey
                                         From Orbit</a></p>
-                                <span>Aug. 2</span>
+                                <span class="release-date">Aug. 2</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -413,9 +430,10 @@
                         <figure>
                             <img src="images/super-nova.jpg" alt="super-nova image">
                             <figcaption>
-                                <span>L. Calçada/ESO</span>
-                                <p><a href="#">A Star Went Supernova in 1987. Where Is It Now?</a></p>
-                                <span>Aug. 8</span>
+                                <span class="image-description">L. Calçada/ESO</span>
+                                <p><a class="article-link" href="#">A Star Went Supernova in 1987. Where Is It Now?</a>
+                                </p>
+                                <span class="release-date">Aug. 8</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -423,10 +441,11 @@
                         <figure>
                             <img src="images/nasa-lunch.jpg" alt="nasa-lunch image">
                             <figcaption>
-                                <span>Image by Joe Skipper/Reuters</span>
-                                <p><a href="#">NASA Launches Perseverance Rover, Capping Summer of Missions to Mars</a>
+                                <span class="image-description">Image by Joe Skipper/Reuters</span>
+                                <p><a class="article-link" href="#">NASA Launches Perseverance Rover, Capping Summer of
+                                        Missions to Mars</a>
                                 </p>
-                                <span>July 30</span>
+                                <span class="release-date">July 30</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -434,9 +453,10 @@
                         <figure>
                             <img src="images/ideal-hole.jpg" alt="ideal-hole image">
                             <figcaption>
-                                <span>NASA/JPL-Caltech/University of Arizona</span>
-                                <p><a href="#">How NASA Found the Ideal Hole on Mars to Land In</a></p>
-                                <span>July 30</span>
+                                <span class="image-description">NASA/JPL-Caltech/University of Arizona</span>
+                                <p><a class="article-link" href="#">How NASA Found the Ideal Hole on Mars to Land In</a>
+                                </p>
+                                <span class="release-date">July 30</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -448,9 +468,9 @@
                         <figure>
                             <img src="images/mtv-video.jpg" alt="mtv-video image">
                             <figcaption>
-                                <span>MTV, via Associated Press</span>
-                                <p><a href="#">MTV Video Music Awards: 6 Memorable Moments</a></p>
-                                <span>Aug. 28</span>
+                                <span class="image-description">MTV, via Associated Press</span>
+                                <p><a class="article-link" href="#">MTV Video Music Awards: 6 Memorable Moments</a></p>
+                                <span class="release-date">Aug. 28</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -458,9 +478,10 @@
                         <figure>
                             <img src="images/lionel.jpg" alt="lionel image">
                             <figcaption>
-                                <span>Alejandro García/EPA, via Shutterstock</span>
-                                <p><a href="#">The True Cost of Lionel Messi’s Declaration of Independence</a></p>
-                                <span>Aug. 31</span>
+                                <span class="image-description">Alejandro García/EPA, via Shutterstock</span>
+                                <p><a class="article-link" href="#">The True Cost of Lionel Messi’s Declaration of
+                                        Independence</a></p>
+                                <span class="release-date">Aug. 31</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -468,9 +489,10 @@
                         <figure>
                             <img src="images/mtv-cribs.jpg" alt="mtv-cribs image">
                             <figcaption>
-                                <span>Farah Al Qasimi for The New York Times</span>
-                                <p><a href="#">How ‘MTV Cribs’ Rewired My Brain, and Maybe Yours Too/a></p>
-                                <span>Aug. 26</span>
+                                <span class="image-description">Farah Al Qasimi for The New York Times</span>
+                                <p><a class="article-link" href="#">How ‘MTV Cribs’ Rewired My Brain, and Maybe Yours
+                                        Too</a></p>
+                                <span class="release-date">Aug. 26</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -478,20 +500,38 @@
             </div>
             <div class="footer-feature-right">
                 <div class="footer-aside">
-                    <p><a href="#">How the Fatal Shooting at a Portland Protest Unfolded</a></p>
-                    <p><a href="#">3 Highly Portable Picnic Options That Aren’t Sandwiches</a></p>
-                    <p><a href="#">Trump Says Some Really Strange Things. Republicans Say No Comment, Again.</a></p>
-                    <p><a href="#">‘I Am Stuck Until That Border Opens’: Marooned in Paradise</a></p>
-                    <p><a href="#">Jet Pack Sighting at 3,000 Feet Over Los Angeles Prompts Investigation</a></p>
-                    <p><a href="#">Ron Jeremy Is Charged With Sexually Assaulting 13 More Women</a></p>
-                    <p><a href="#">Opinion: Trump Had One Good Response to Covid-19. His Party Killed It.</a></p>
-                    <p><a href="#">Trump Wins Another Delay in Turning Over Tax Returns</a></p>
-                    <p><a href="#">Roanoke’s ‘Lost Colony’ Was Never Lost, New Book Says</a></p>
-                    <p><a href="#">Opinion: For Biden to Win, Listen to Minneapolis</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">How the Fatal Shooting at a Portland Protest Unfolded</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">3 Highly Portable Picnic Options That Aren’t Sandwiches</a>
+                    </p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Trump Says Some Really Strange Things. Republicans Say No
+                            Comment, Again.</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">‘I Am Stuck Until That Border Opens’: Marooned in
+                            Paradise</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Jet Pack Sighting at 3,000 Feet Over Los Angeles Prompts
+                            Investigation</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Ron Jeremy Is Charged With Sexually Assaulting 13 More
+                            Women</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Opinion: Trump Had One Good Response to Covid-19. His Party
+                            Killed It.</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Trump Wins Another Delay in Turning Over Tax Returns</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Roanoke’s ‘Lost Colony’ Was Never Lost, New Book Says</a></p>
+                    <hr><br>
+                    <p><a class="popular-article" href="#">Opinion: For Biden to Win, Listen to Minneapolis</a></p>
                 </div>
             </div>
         </div>
+
         <div class="footer-categories">
+            <div class="footer-border-separator"></div>
             <div class="category-header">
                 <a class="heading-logo" href="#">The New York Times</a>
                 <a class="home-link" href="#">Go to Home Page >></a>
@@ -582,12 +622,17 @@
                 </div>
                 <div class="category-box6">
                     <h4>SUBSCRIBE</h4>
+                    <div class="footer-special-link">
+                        <a href="#"><i class="fas fa-truck-loading"></i><b>Home Delivery</b></a>
+                        <a href="#"><img class="new-york-time-logo" src="images/Times.ico" alt="New york times logo">
+                            <b>DigitalSubscriptions</b></a>
+                        <div>
+                            <a href="#"><i class="fas fa-dice-four"></i><b>Games</b></a>
+                        </div>
+
+                        <a href="#"><i class="fas fa-utensils"></i><b>Cooking</b></a>
+                    </div>
                     <ul>
-                        <li><i class="fas fa-truck-loading"></i><a href="#"><b>Home Delivery</b></a></li>
-                        <li><img class="new-york-time-logo" src="images/Times.ico" alt="New york times logo"><a
-                                href="#"><b>DigitalSubscriptions</b></a></li>
-                        <li><i class="fas fa-dice-four"></i><a href="#"><b>Games</b></a></li>
-                        <li><i class="fas fa-utensils"></i><a href="#"><b>Cooking</b></a></li>
                         <li><a href="#">Email Newsletters</a></li>
                         <li><a href="#">Corporate Subscriptions</a></li>
                         <li><a href="#">Education rate</a></li>
