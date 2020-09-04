@@ -2,7 +2,7 @@
 
 > This project is a clone of New York Times' article called "Space Ripples Reveal Big Bang’s Smoking Gun".
 
-![NYT-screenshot](https://raw.githack.com/tahiry-dev/new-york-times-clone/clone-new-york-times/index.html)
+![NYT-screenshot](https://user-images.githubusercontent.com/47100064/92251381-6a794a80-eed5-11ea-949d-557305653114.png)
 
 
 > This website contains a sticky navigation bar both for the header and the footer
@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-Please click [here](https://repl.it/@cristianCeamatu/Bubble-Sort#main.rb). to have a look on my project.
+Please click [here](https://repl.it/@cristianCeamatu/Bubble-Sort#main.rb) to have a look on my project.
 
 ## Getting Started
 
