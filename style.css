@@ -27,6 +27,8 @@ p {
 
 .written-article {
   width: 600px;
+  width: 50%;
+  margin: 50px auto;
 }
 
 figure {
@@ -158,7 +160,6 @@ h1 {
 .fa-twitter,
 .fa-envelope-square,
 .fa-share {
-    
   border: 1px solid rgba(179, 179, 179, 0.214);
   border-radius: 100%;
   padding: 7px;
@@ -174,14 +175,13 @@ h1 {
 }
 
 .fa-bookmark:hover,
-.fa-comment-alt:hover { 
-
+.fa-comment-alt:hover {
   color: rgba(0, 0, 0, 0.255);
   cursor: pointer;
 }
 
 .fa-2x {
-  top:3px;
+  top: 3px;
 }
 
 .comment-number {
@@ -211,7 +211,7 @@ h3 {
 }
 
 .login {
-  color: rgb(80, 80, 230);    
+  color: rgb(80, 80, 230);
 }
 
 .inflation-header {
@@ -227,8 +227,7 @@ h3 {
 }
 
 .article-inflation-author {
-  margin: 30px 0 50px 140px  
-
+  margin: 30px 0 50px 140px;
 }
 
 .article-inflation-author p {
@@ -245,13 +244,12 @@ h3 {
   display: block;
   width: 80%;
   margin: 0 auto;
-
 }
 
 .section-inflation-boxes {
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(4,auto);
+  grid-template-columns: repeat(4, auto);
   left: 140px;
 }
 
@@ -268,12 +266,6 @@ h3 {
   font-size: 0.8rem;
   line-height: normal;
   color: rgb(102, 102, 102);
-    
-}
-
-.written-article {
-  width: 50%;
-  margin: 50px auto;
 }
 
 .section-credit p {
@@ -325,11 +317,11 @@ h3 {
 }
 
 .right-boxes-ruler {
-  width:24%;
-  margin-right:45px;
+  width: 24%;
+  margin-right: 45px;
 }
 
-.left-boxes-ruler { 
+.left-boxes-ruler {
   width: 68%;
   margin-left: 20px;
 }
@@ -343,23 +335,20 @@ h3 {
 
 .footer-astronomy-boxes,
 .footer-editor-boxes {
-    
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 25px;
 }
 
-.footer-astronomy-boxes { 
+.footer-astronomy-boxes {
   margin-bottom: 30px;
 }
-
 
 .boxes-separator {
   color: #333;
   display: block;
   margin: 20px 0;
 }
-
 
 .footer-border-separator {
   border-bottom: 1px solid #e2e2e2;
@@ -373,9 +362,7 @@ h3 {
 }
 
 .image-description,
-.release-date
-
- {
+.release-date {
   color: rgb(153, 153, 153);
   font-size: 0.7rem;
 }
@@ -396,8 +383,9 @@ h3 {
 
 .categorie-boxes {
   display: grid;
-  grid-template-columns: repeat(6,auto);
+  grid-template-columns: repeat(6, auto);
 }
+
 .categorie-boxes h4 {
   margin-bottom: 20px;
 }
@@ -413,6 +401,12 @@ h3 {
   font-size: 13px;
 }
 
+.footer-menu a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #666;
+}
+
 .categorie-boxes a:hover {
   text-decoration: underline;
 }
@@ -426,7 +420,7 @@ h3 {
   left: 45px;
 }
 
-.category-box6 b:hover { 
+.category-box6 b:hover {
   text-decoration: underline;
 }
 
@@ -451,13 +445,13 @@ h3 {
 }
 
 .after-ruler {
-  padding-top: 10px;  
+  padding-top: 10px;
 }
 
 .footer-ruler {
   width: 97%;
   margin: 0 auto;
-  margin-top:30px;
+  margin-top: 30px;
   color: #ebebeb;
 }
 
@@ -468,12 +462,6 @@ h3 {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-}
-
-.footer-menu a {
-  margin-right: 10px;
-  text-decoration: none;
-  color: #666;
 }
 
 .footer-menu a:hover {
