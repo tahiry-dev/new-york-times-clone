@@ -12,22 +12,21 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="nav-left">
-                <button class="icon-button"><i class="fas fa-bars"></i></button>
-                <button class="icon-button"><i class="fas fa-search"></i></button>
-                <a class="icon-button link-button" href="#"><b>SPACE & COSMOS</b></a>
-            </div>
-            <div class="nav-center">
-                <a class="heading-logo" href="#">The New York Times</a>
-            </div>
-            <div class="nav-right">
-                <button class="subscribe">SUBSCRIBE NOW</button>
-                <button class="header-login">LOGIN</button>
-            </div>
-        </nav>
-    </header>
+    <nav>
+        <div class="nav-left">
+            <span class="icon-button"><i class="fas fa-bars"></i></span>
+            <span class="icon-button"><i class="fas fa-search"></i></span>
+            <a class="icon-button link-button text-decoration black" href="#"><b>SPACE & COSMOS</b></a>
+        </div>
+        <div class="nav-center">
+            <a class="heading-logo text-decoration" href="#">The New York Times</a>
+        </div>
+        <div class="nav-right">
+            <button class="subscribe">SUBSCRIBE NOW</button>
+            <button class="header-login">LOGIN</button>
+        </div>
+    </nav>
+
     <main>
         <article>
             <div class="article-header">
@@ -46,17 +45,18 @@
             </div>
             <div class="written-article">
                 <div>
-                    <b>By <a class="feature-author" href="#">Dennis Overbye</a></b>
+                    <b>By <a class="feature-author text-decoration black" href="#">Dennis Overbye</a></b>
                 </div>
-                <div class="article-share">
+                <div class="article-share parent-element common-flex">
                     <span>March 17, 2014</span>
                     <div class="article-share-buttons">
-                        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
-                        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-                        <a href="#"><i class="fas fa-envelope-square fa-lg"></i></a>
-                        <a href="#"><i class="fas fa-share fa-lg"></i></a>
-                        <a href="#"><i class="far fa-bookmark fa-lg"></i></a>
-                        <a href="#"><i class="far fa-comment-alt fa-2x"><span class="comment-number">615</span></i></a>
+                        <i class="fab fa-facebook fa-lg"></i>
+                        <i class="fab fa-twitter fa-lg"></i>
+                        <i class="fas fa-envelope-square fa-lg"></i>
+                        <i class="fas fa-share fa-lg"></i>
+                        <i class="far fa-bookmark fa-lg"></i>
+                        <i class="far fa-comment-alt fa-2x child-element"><span
+                                class="comment-number child-element">615</span></i></a>
                     </div>
                 </div>
                 <p>CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new
@@ -93,7 +93,7 @@
                 <div class="border-separator"></div>
                 <div class="article-separator">
                     <h4>Unlock more free articles.</h4>
-                    <a class="login" href="#">Create an account or log in</a>
+                    <a class="login text-decoration" href="#">Create an account or log in</a>
                 </div>
                 <div class="border-separator"></div>
 
@@ -141,7 +141,7 @@
             </div>
             <section>
                 <div class="section-inflation">
-                    <div class="section-inflation-header">
+                    <div class="section-inflation-header parent-element">
                         <div class="inflation-header">
                             <h2>The Theory of Inflation</h2>
                             <p class="inflation-header-paragraph">Astronomers have found evidence to support the theory
@@ -151,9 +151,9 @@
                                 billion
                                 years ago.</p>
                         </div>
-                        <img class="inflation-image" src="images/inflation-background.png" alt="images about inflation">
-                        <div class="section-inflation-boxes">
+                        <div class="section-inflation-boxes child-element">
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/universe.png" alt="image of universe">
                                 <p><b>THE UNIVERSE</b> is just under 14 billion years old. From our position in the
                                     Milky
                                     Way
@@ -161,6 +161,7 @@
                                     there's a mystery. Wherever we look, the universe has an even temperature </p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/time.png" alt="image of time">
                                 <p><b>NOT ENOUGH TIME</b> The universe is not old enough for light to have traveled the
                                     vast
                                     distance from one side of the universe to the other, and there has not been enough
@@ -168,12 +169,15 @@
                                     for scattered patches of hot and cold to mix into an even temperature.</p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/distant-coffee.png"
+                                    alt="image of distant-coffee">
                                 <p><b>DISTANT COFFEE</b> At a smaller scale, imagine using a telescope to look a mile in
                                     one
                                     direction. You see a coffee cup, and from the amount of steam, you can estimate its
                                     temperature and how much it has cooled.</p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/coffee.png" alt="image of coffee">
                                 <p><b>COFFEE EVERYWHERE</b> Now turn around and look a mile in the other direction. You
                                     see
                                     a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if
@@ -183,6 +187,7 @@
                                 </p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/no-time.png" alt="image of no-time">
                                 <p><b>STILL NOT ENOUGH TIME</b> There has not been enough time to carry coffee cups from
                                     place to place before they get cold. But if all the coffee cups were somehow filled
                                     from
@@ -190,6 +195,7 @@
                                 </p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/inflation.png" alt="image of inflation">
                                 <p><b>INFLATION</b> solves this problem. The theory proposes that, less than a
                                     trillionth of
                                     a second after the Big Bang, the universe expanded faster than the speed of light.
@@ -198,6 +204,7 @@
                                     structures of the universe.</p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/fluctuation.png" alt="image of fluctuation">
                                 <p><b>FLUCTUATION</b> Astronomers have now detected evidence of these ancient
                                     fluctuations
                                     in swirls of polarized light in the cosmic background radiation, which is energy
@@ -206,6 +213,7 @@
                                 </p>
                             </div>
                             <div class="inflation-box">
+                                <img class="inflation-images" src="images/Expansion.png" alt="image of expansion">
                                 <p><b>EXPANSION</b> Returning to our coffee, imagine a single, central pot expanding
                                     faster
                                     than light and cooling to an even temperature as it expands. That is something like
@@ -362,13 +370,13 @@
                                 | <a class="credit-link" href="#">Today’s Paper</a> | <a class="credit-link" href="
                                     #">Subscribe</a></p>
                         </div>
-                        <div class="section-comments">
+                        <div class="section-comments common-flex">
                             <button class="comment-button">READ 615 COMMENTS</button>
                             <div>
-                                <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
-                                <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-                                <a href="#"><i class="fas fa-envelope-square fa-lg"></i></a>
-                                <a href="#"><i class="fas fa-share fa-lg"></i></a>
+                                <i class="fab fa-facebook fa-lg"></i>
+                                <i class="fab fa-twitter fa-lg"></i>
+                                <i class="fas fa-envelope-square fa-lg"></i>
+                                <i class="fas fa-share fa-lg"></i>
                             </div>
                         </div>
 
@@ -379,12 +387,12 @@
         </article>
     </main>
     <footer>
-        <div class="ruler">
+        <div class="ruler common-flex">
             <hr class="left-boxes-ruler">
             <hr class="right-boxes-ruler">
         </div>
-        <div class="boxes-header">
-            <a class="boxes-header-link" href="#">More in Space and Astronomy</a>
+        <div class="boxes-header common-flex">
+            <a class="boxes-header-link text-decoration" href="#">More in Space and Astronomy</a>
             <p class="boxes-aside-title">Most Popular</p>
         </div>
         <div class="footer-feature">
@@ -395,7 +403,8 @@
                             <img src="images/star.jpg" alt="star image">
                             <figcaption>
                                 <span class="image-description">European Southern Observatory</span>
-                                <p><a class="article-link" href="#">This star look like it would explode. Maybe it Just
+                                <p><a class="article-link text-decoration" href="#">This star look like it would
+                                        explode. Maybe it Just
                                         Sneezed</a></p>
                                 <span class="release-date">Aug. 14</span>
                             </figcaption>
@@ -406,7 +415,8 @@
                             <img src="images/amazon-satellite.jpg" alt="amazon-satellite image">
                             <figcaption>
                                 <span class="image-description">Peter Komka/MTI, via Associated Press</span>
-                                <p><a class="article-link" href="#">Amazon satellites Add to Astronomers' Worries about
+                                <p><a class="article-link text-decoration" href="#">Amazon satellites Add to
+                                        Astronomers' Worries about
                                         the night Sky</a></p>
                                 <span class="release-date">Aug. 10</span>
                             </figcaption>
@@ -418,7 +428,8 @@
                             <figcaption>
                                 <span class="image-description">Bill Ingalls/NASA, via Agence France-Presse — Getty
                                     Images</span>
-                                <p><a class="article-link" href="#">‘Thanks for Flying SpaceX’: NASA Astronauts Safely
+                                <p><a class="article-link text-decoration" href="#">‘Thanks for Flying SpaceX’: NASA
+                                        Astronauts Safely
                                         Splash Down After
                                         Journey
                                         From Orbit</a></p>
@@ -431,7 +442,8 @@
                             <img src="images/super-nova.jpg" alt="super-nova image">
                             <figcaption>
                                 <span class="image-description">L. Calçada/ESO</span>
-                                <p><a class="article-link" href="#">A Star Went Supernova in 1987. Where Is It Now?</a>
+                                <p><a class="article-link text-decoration" href="#">A Star Went Supernova in 1987. Where
+                                        Is It Now?</a>
                                 </p>
                                 <span class="release-date">Aug. 8</span>
                             </figcaption>
@@ -442,7 +454,8 @@
                             <img src="images/nasa-lunch.jpg" alt="nasa-lunch image">
                             <figcaption>
                                 <span class="image-description">Image by Joe Skipper/Reuters</span>
-                                <p><a class="article-link" href="#">NASA Launches Perseverance Rover, Capping Summer of
+                                <p><a class="article-link text-decoration" href="#">NASA Launches Perseverance Rover,
+                                        Capping Summer of
                                         Missions to Mars</a>
                                 </p>
                                 <span class="release-date">July 30</span>
@@ -454,7 +467,8 @@
                             <img src="images/ideal-hole.jpg" alt="ideal-hole image">
                             <figcaption>
                                 <span class="image-description">NASA/JPL-Caltech/University of Arizona</span>
-                                <p><a class="article-link" href="#">How NASA Found the Ideal Hole on Mars to Land In</a>
+                                <p><a class="article-link text-decoration" href="#">How NASA Found the Ideal Hole on
+                                        Mars to Land In</a>
                                 </p>
                                 <span class="release-date">July 30</span>
                             </figcaption>
@@ -462,7 +476,7 @@
                     </div>
                 </div>
                 <hr>
-                <h3><a class="boxes-separator" href="#">Editors'Picks</a></h3>
+                <h3><a class="boxes-separator text-decoration" href="#">Editors'Picks</a></h3>
                 <div class="footer-editor-boxes">
                     <div class="editor-box-1">
                         <figure>
@@ -501,40 +515,40 @@
             <div class="footer-feature-right">
                 <div class="footer-aside">
                     <hr><br>
-                    <p><a class="popular-article" href="#">How the Fatal Shooting at a Portland Protest Unfolded</a></p>
+                    <p><a class="link-style" href="#">How the Fatal Shooting at a Portland Protest Unfolded</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">3 Highly Portable Picnic Options That Aren’t Sandwiches</a>
+                    <p><a class="link-style" href="#">3 Highly Portable Picnic Options That Aren’t Sandwiches</a>
                     </p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Trump Says Some Really Strange Things. Republicans Say No
+                    <p><a class="link-style" href="#">Trump Says Some Really Strange Things. Republicans Say No
                             Comment, Again.</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">‘I Am Stuck Until That Border Opens’: Marooned in
+                    <p><a class="link-style" href="#">‘I Am Stuck Until That Border Opens’: Marooned in
                             Paradise</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Jet Pack Sighting at 3,000 Feet Over Los Angeles Prompts
+                    <p><a class="link-style" href="#">Jet Pack Sighting at 3,000 Feet Over Los Angeles Prompts
                             Investigation</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Ron Jeremy Is Charged With Sexually Assaulting 13 More
+                    <p><a class="link-style" href="#">Ron Jeremy Is Charged With Sexually Assaulting 13 More
                             Women</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Opinion: Trump Had One Good Response to Covid-19. His Party
+                    <p><a class="link-style" href="#">Opinion: Trump Had One Good Response to Covid-19. His Party
                             Killed It.</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Trump Wins Another Delay in Turning Over Tax Returns</a></p>
+                    <p><a class="link-style" href="#">Trump Wins Another Delay in Turning Over Tax Returns</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Roanoke’s ‘Lost Colony’ Was Never Lost, New Book Says</a></p>
+                    <p><a class="link-style" href="#">Roanoke’s ‘Lost Colony’ Was Never Lost, New Book Says</a></p>
                     <hr><br>
-                    <p><a class="popular-article" href="#">Opinion: For Biden to Win, Listen to Minneapolis</a></p>
+                    <p><a class="link-style" href="#">Opinion: For Biden to Win, Listen to Minneapolis</a></p>
                 </div>
             </div>
         </div>
 
         <div class="footer-categories">
             <div class="footer-border-separator"></div>
-            <div class="category-header">
+            <div class="category-header common-flex">
                 <a class="heading-logo" href="#">The New York Times</a>
-                <a class="home-link" href="#">Go to Home Page >></a>
+                <a class="home-link text-decoration" href="#">Go to Home Page >></a>
             </div>
             <div class="categorie-boxes">
                 <div class="category-box1">
@@ -620,17 +634,17 @@
                         <li><a href="#">Manage My Account</a></li>
                     </ul>
                 </div>
-                <div class="category-box6">
+                <div class="category-box6 parent-element">
                     <h4>SUBSCRIBE</h4>
                     <div class="footer-special-link">
-                        <a href="#"><i class="fas fa-truck-loading"></i><b>Home Delivery</b></a>
+                        <a href="#"><i class="fas fa-truck-loading"></i><b class="child-element">Home Delivery</b></a>
                         <a href="#"><img class="new-york-time-logo" src="images/Times.ico" alt="New york times logo">
-                            <b>DigitalSubscriptions</b></a>
+                            <b class="child-element">DigitalSubscriptions</b></a>
                         <div>
-                            <a href="#"><i class="fas fa-dice-four"></i><b>Games</b></a>
+                            <a href="#"><i class="fas fa-dice-four"></i><b class="child-element">Games</b></a>
                         </div>
 
-                        <a href="#"><i class="fas fa-utensils"></i><b>Cooking</b></a>
+                        <a href="#"><i class="fas fa-utensils"></i><b class="child-element">Cooking</b></a>
                     </div>
                     <ul>
                         <li><a href="#">Email Newsletters</a></li>

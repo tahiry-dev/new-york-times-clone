@@ -1,4 +1,5 @@
 /* ---CSS RESET--- */
+
 *
 {
     margin:0;
@@ -16,7 +17,6 @@ body{
 .heading-logo{
     font-family: 'Ma Shan Zheng', cursive;
     color:black;
-    text-decoration: none;
     font-size: 30px;
 }
 
@@ -35,7 +35,40 @@ figure{
     margin-bottom:25px;
 }
 
+.text-decoration{
+    text-decoration: none;
+}
+
+.link-style{
+    text-decoration: none;
+    color: #000;
+}
+
+.link-style:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.black{
+    color: #000;
+}
+
+.parent-element{
+    position: relative;
+}
+
+.child-element{
+    position: absolute;
+}
+
+.common-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* --- navigation --- */
+
+
 
 nav{
     display: flex;
@@ -43,16 +76,17 @@ nav{
     align-items: center;
     padding: 10px;
     border: 1px solid rgba(58, 54, 54, 0.322);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    z-index: 1;
 }
 
 .icon-button{
     margin-right:15px;
 }
 
-.link-button{
-    text-decoration: none;
-    color: #000;
-}
 .subscribe,
 .header-login
 {
@@ -117,16 +151,11 @@ h1{
 }
 
 .feature-author{
-    text-decoration: none;
-    color: black;
     border-bottom: 2px solid rgb(167, 164, 164);
 }
 
 .article-share{
     margin:30px 0;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
 }
 
 .fa-lg,
@@ -153,23 +182,23 @@ h1{
 .fa-share:hover
 {
    
-    background-color:white;
+    background-color:#fff;
+    cursor: pointer;
 }
 
 .fa-bookmark:hover,
 .fa-comment-alt:hover
 {
     color: rgba(0, 0, 0, 0.255);
+    cursor: pointer;
 }
 
 .fa-2x{
-    position: absolute;
     top:3px;
 }
 
 .comment-number{
     font-size:12px;
-    position: absolute;
     right: 6px;
     top: 7px;
 }
@@ -195,13 +224,7 @@ h3{
 }
 
 .login{
-    text-decoration:none;
     color: rgb(80, 80, 230);    
-}
-
-
-.section-inflation-header{
-    position: relative;
 }
 
 .inflation-header{
@@ -213,6 +236,7 @@ h3{
     border-bottom: 1px solid #000;
     width: 70px;
     margin-left:140px;
+    margin-top: 550px;
 }
 
 .article-inflation-author{
@@ -242,11 +266,12 @@ h3{
     width: 80%;
     display: grid;
     grid-template-columns: repeat(4,auto);
-    grid-row-gap:180px;
-    position: absolute;
     left:140px;
-    bottom:65px;
-    
+}
+
+.inflation-images{
+    width: 100%;
+    height: 120px;
 }
 
 .inflation-box{
@@ -275,8 +300,7 @@ h3{
     color: rgb(102, 102, 102);
 }
 .section-comments{
-    display: flex;
-    justify-content: space-between;
+
     margin-bottom:100px;
 }
 
@@ -299,8 +323,6 @@ h3{
 
 .boxes-header{
     width: 83%;
-    display: flex;
-    justify-content: space-between;
     margin-top:50px;
 }
 
@@ -310,7 +332,6 @@ h3{
 }
 
 .boxes-header-link{
-    text-decoration:none;
     color:#333;
     margin-left: 20px;
     font-weight:bold;
@@ -318,11 +339,6 @@ h3{
 
 .boxes-header-link:hover{
     text-decoration:underline;
-}
-
-.ruler{
-    display: flex;
-    justify-content: space-between;
 }
 
 .right-boxes-ruler{
@@ -357,7 +373,6 @@ h3{
 
 
 .boxes-separator{
-    text-decoration:none;
     color:#333;
     display: block;
     margin: 20px 0;
@@ -385,31 +400,17 @@ h3{
 
 
 .article-link{
-    text-decoration: none;
     color: rgb(20, 20, 20);
     font-size:15px;
     line-height: normal;
 }
 
 .category-header{
-    display: flex;
-    justify-content: space-between;
     margin-bottom:30px;
 }
 
 .home-link{
     font-size:12px;
-    text-decoration:none;
-}
-
-
-.popular-article{
-    text-decoration: none;
-    color: #000;
-}
-.popular-article:hover{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.411);
 }
 
 .categorie-boxes{
@@ -428,7 +429,7 @@ h3{
 
 .categorie-boxes a{
     text-decoration:none;
-    color:black;
+    color:#000;
     line-height: 1.8em;
     font-size:13px;
 }
@@ -440,11 +441,9 @@ h3{
 .category-box6{
     border-left:1px solid #ebebeb;
     padding-left: 20px;
-    position: relative;
 }
 
 .category-box6 b{
-    position: absolute;
     left: 45px;
 }
 
@@ -484,6 +483,9 @@ h3{
     text-align: center;
     font-size:12px;
     padding:20px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
 }
 .footer-menu a{
     margin-right:10px;
