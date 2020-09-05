@@ -1,6 +1,5 @@
 /* ---CSS RESET--- */
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -473,7 +472,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  font-size: 12px;  
+  font-size: 12px;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
@@ -485,12 +484,10 @@ h3 {
   margin-left: 380px;
 }
 
-.fixed-footer-right{
+.fixed-footer-right {
   margin-left: 250px;
 }
 
 .fa-3x {
   margin-top: 14px;
 }
-
-
