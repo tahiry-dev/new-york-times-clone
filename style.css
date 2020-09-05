@@ -1,5 +1,6 @@
 /* ---CSS RESET--- */
-* {
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -73,12 +74,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 1px solid rgba(58, 54, 54, 0.322);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1;
+  box-shadow: 10px 1.5px rgba(196, 186, 186, 0.193);
 }
 
 .icon-button {
@@ -459,11 +460,37 @@ h3 {
   text-align: center;
   font-size: 12px;
   padding: 20px;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
 }
 
 .footer-menu a:hover {
   text-decoration: underline;
 }
+
+/* ---Fixed Footer--- */
+.fixed-footer {
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 12px;  
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.fixed-footer-center {
+  margin-left: 380px;
+}
+
+.fixed-footer-right{
+  margin-left: 250px;
+}
+
+.fa-3x {
+  margin-top: 14px;
+}
+
+
