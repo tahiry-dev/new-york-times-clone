@@ -8,20 +8,13 @@
 > This website contains a sticky navigation bar both for the header and the footer
 > It is an webpage that contains mutliple layout, social medias sharing buttons and links to specific webpages
 
-
-
-
 ## Built With
 - HTML
 - CSS
 
 ## Live Demo
 
-<<<<<<< HEAD
-Please click [here](https://repl.it/@cristianCeamatu/Bubble-Sort#main.rb) to have a look on my project.
-=======
-Please click [here](https://raw.githack.com/tahiry-dev/new-york-times-clone/clone-new-york-times/index.html) to have a look on my project.
->>>>>>> clone-new-york-times
+Please click [here](https://raw.githack.com/tahiry-dev/new-york-times-clone/master/index.html) to have a look on my project.
 
 ## Getting Started
 
