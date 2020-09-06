@@ -17,7 +17,11 @@
 
 ## Live Demo
 
+<<<<<<< HEAD
 Please click [here](https://repl.it/@cristianCeamatu/Bubble-Sort#main.rb) to have a look on my project.
+=======
+Please click [here](https://raw.githack.com/tahiry-dev/new-york-times-clone/clone-new-york-times/index.html) to have a look on my project.
+>>>>>>> clone-new-york-times
 
 ## Getting Started
 

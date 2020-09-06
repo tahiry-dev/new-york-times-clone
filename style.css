@@ -1,0 +1,493 @@
+/* ---CSS RESET--- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+/* --- common styles--- */
+
+body {
+  color: #333;
+}
+
+.heading-logo {
+  font-family: 'Ma Shan Zheng', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+p {
+  color: #333;
+  font-size: 1.325rem;
+  line-height: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.written-article {
+  width: 600px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+figure {
+  margin-bottom: 25px;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.link-style {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-style:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.411);
+}
+
+.black {
+  color: #000;
+}
+
+.parent-element {
+  position: relative;
+}
+
+.child-element {
+  position: absolute;
+}
+
+.common-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --- navigation --- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 10px 1.5px rgba(196, 186, 186, 0.193);
+}
+
+.icon-button {
+  margin-right: 15px;
+}
+
+.subscribe,
+.header-login {
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.subscribe:hover,
+.header-login:hover {
+  background-color: rgb(40, 40, 90);
+}
+
+/* --- images & Video Dimensions ---- */
+
+.main-feature-image {
+  width: 100%;
+}
+
+.section-feature-video,
+.section-feature-image {
+  width: 600px;
+  height: 319px;
+}
+
+.footer-astronomy-boxes img,
+.footer-editor-boxes img {
+  width: 100%;
+  height: 150px;
+}
+
+/* ---main--- */
+
+.article-header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  width: 40%;
+  margin: 30px 0 30px 150px;
+  font-size: xx-large;
+}
+
+.feature-caption {
+  width: 75%;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+
+.feature-caption cite {
+  font-size: 0.8375rem;
+  color: #888;
+}
+
+.feature-author {
+  border-bottom: 2px solid rgb(167, 164, 164);
+}
+
+.article-share {
+  margin: 30px 0;
+}
+
+.fa-lg,
+.fa-2x {
+  color: rgba(0, 0, 0, 0.749);
+  margin-right: 10px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-envelope-square,
+.fa-share {
+  border: 1px solid rgba(179, 179, 179, 0.214);
+  border-radius: 100%;
+  padding: 7px;
+  background-color: rgba(179, 179, 179, 0.214);
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-envelope-square:hover,
+.fa-share:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.fa-bookmark:hover,
+.fa-comment-alt:hover {
+  color: rgba(0, 0, 0, 0.255);
+  cursor: pointer;
+}
+
+.fa-2x {
+  top: 3px;
+}
+
+.comment-number {
+  font-size: 12px;
+  right: 6px;
+  top: 7px;
+}
+
+.article-share-buttons {
+  margin-right: 35px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.article-separator {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.border-separator {
+  border-top: 0.4px solid rgba(190, 189, 189, 0.4);
+  border-bottom: 0.4px solid rgba(190, 189, 189, 0.4);
+  margin: 0 auto 20px auto;
+  width: 10%;
+}
+
+.login {
+  color: rgb(80, 80, 230);
+}
+
+.inflation-header {
+  margin: 40px 0 0 140px;
+  width: 80%;
+}
+
+.separate-border {
+  border-bottom: 1px solid #000;
+  width: 70px;
+  margin-left: 140px;
+  margin-top: 550px;
+}
+
+.article-inflation-author {
+  margin: 30px 0 50px 140px;
+}
+
+.article-inflation-author p {
+  font-size: 0.9rem;
+  color: rgb(102, 102, 102);
+}
+
+.inflation-header-paragraph {
+  font-size: 0.9rem;
+  color: rgb(102, 102, 102);
+}
+
+.inflation-image {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-inflation-boxes {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  left: 140px;
+}
+
+.inflation-images {
+  width: 100%;
+  height: 120px;
+}
+
+.inflation-box {
+  width: 220px;
+}
+
+.inflation-box p {
+  font-size: 0.8rem;
+  line-height: normal;
+  color: rgb(102, 102, 102);
+}
+
+.section-credit p {
+  font-size: 0.8rem;
+  line-height: normal;
+  color: rgb(102, 102, 102);
+}
+
+.credit-link {
+  color: rgb(102, 102, 102);
+}
+
+.section-comments {
+  margin-bottom: 100px;
+}
+
+.comment-button {
+  padding: 5px 100px 5px 100px;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.comment-button:hover {
+  background-color: rgb(40, 40, 90);
+}
+
+/* --- footer---- */
+
+.boxes-header {
+  width: 83%;
+  margin-top: 50px;
+}
+
+.boxes-aside-title {
+  color: #333;
+  font-weight: bold;
+}
+
+.boxes-header-link {
+  color: #333;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.boxes-header-link:hover {
+  text-decoration: underline;
+}
+
+.right-boxes-ruler {
+  width: 24%;
+  margin-right: 45px;
+}
+
+.left-boxes-ruler {
+  width: 68%;
+  margin-left: 20px;
+}
+
+.footer-feature {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  grid-column-gap: 36px;
+  padding: 20px;
+}
+
+.footer-astronomy-boxes,
+.footer-editor-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 25px;
+}
+
+.footer-astronomy-boxes {
+  margin-bottom: 30px;
+}
+
+.boxes-separator {
+  color: #333;
+  display: block;
+  margin: 20px 0;
+}
+
+.footer-border-separator {
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  padding: 1px;
+  margin-bottom: 10px;
+}
+
+.footer-categories {
+  padding: 25px;
+}
+
+.image-description,
+.release-date {
+  color: rgb(153, 153, 153);
+  font-size: 0.7rem;
+}
+
+.article-link {
+  color: rgb(20, 20, 20);
+  font-size: 15px;
+  line-height: normal;
+}
+
+.category-header {
+  margin-bottom: 30px;
+}
+
+.home-link {
+  font-size: 12px;
+}
+
+.categorie-boxes {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+.categorie-boxes h4 {
+  margin-bottom: 20px;
+}
+
+.categorie-boxes li {
+  list-style-type: none;
+}
+
+.categorie-boxes a {
+  text-decoration: none;
+  color: #000;
+  line-height: 1.8em;
+  font-size: 13px;
+}
+
+.footer-menu a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.categorie-boxes a:hover {
+  text-decoration: underline;
+}
+
+.category-box6 {
+  border-left: 1px solid #ebebeb;
+  padding-left: 20px;
+}
+
+.category-box6 b {
+  left: 45px;
+}
+
+.category-box6 b:hover {
+  text-decoration: underline;
+}
+
+.new-york-time-logo {
+  width: 20px;
+}
+
+.footer-special-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-dice-four,
+.fa-utensils {
+  margin-left: 5px;
+}
+
+.subscribe-ruler {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(185, 180, 180);
+  width: 100%;
+}
+
+.after-ruler {
+  padding-top: 10px;
+}
+
+.footer-ruler {
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: #ebebeb;
+}
+
+.footer-menu {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+/* ---Fixed Footer--- */
+.fixed-footer {
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.fixed-footer-center {
+  margin-left: 380px;
+}
+
+.fixed-footer-right {
+  margin-left: 250px;
+}
+
+.fa-3x {
+  margin-top: 14px;
+}
